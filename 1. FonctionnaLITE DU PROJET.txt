@@ -1,0 +1,94 @@
+🔹 Accueil & Présentation du projet
+
+    Page d’accueil claire expliquant le but de la plateforme.
+
+    Un bouton "S'inscrire" et "Se connecter".
+
+    Une section "Comment ça marche ?" pour guider les utilisateurs.
+
+🔹 Création d’un compte utilisateur (pour tous)
+
+🔸 Deux types de comptes :
+✅ Personne en situation irrégulière → Accès aux ressources, à l’entraide.
+✅ Bénévole/Association → Peut publier des annonces et proposer de l’aide.
+
+🔸 Informations demandées à l’inscription :
+
+    Nom (ou pseudo si anonymat souhaité).
+
+    Langue parlée.
+
+    Pays d’origine.
+
+    Statut (ex : réfugié, en demande de régularisation, bénévole, association).
+
+🔸 Connexion possible via :
+✅ Email & mot de passe
+✅ Connexion Google ou Facebook (optionnelle pour simplifier l’accès).
+🔹 Annuaire des associations et services d’aide
+
+💡 Objectif : Donner un accès rapide aux ressources disponibles.
+
+✅ Filtrage par catégorie (hébergement, alimentation, santé, régularisation, emploi).
+✅ Carte interactive des lieux d’aide (comme un Google Maps des associations).
+✅ Fiches détaillées avec :
+
+    Adresse & contact
+
+    Services proposés
+
+    Horaires d’ouverture
+    ✅ Multilingue (français, anglais, arabe, espagnol).
+
+
+🔹 Forum d’entraide et annonces
+
+💡 Objectif : Connecter les personnes dans le besoin avec des bénévoles et compatriotes.
+
+✅ Catégories de discussion :
+
+    📍 Hébergement temporaire → Trouver un endroit où dormir.
+
+    🍽️ Besoin alimentaire → Trouver des dons de nourriture.
+
+    📜 Aide administrative → Demandes de conseils juridiques.
+
+    🤝 Rencontres & solidarité → Trouver d’autres personnes dans la même situation.
+
+✅ Système d’annonces où chaque utilisateur peut :
+
+    Publier une demande d’aide (ex : "Je cherche un hébergement pour une nuit").
+
+    Publier une offre d’aide (ex : "Je peux héberger une personne pour 2 jours").
+
+    Ajouter un numéro de contact (optionnel).
+
+✅ Système de messagerie privée entre utilisateurs.
+🔹 Outils d’accès aux droits et information
+
+💡 Objectif : Fournir des explications claires et traduites sur les démarches administratives.
+
+✅ Fiches pratiques sur les droits (régularisation, demande d’asile, soins médicaux).
+✅ Traduction automatique (Google Translate ou API intégrée).
+✅ Moteur de recherche pour trouver rapidement des infos utiles.
+
+
+
+
+🔹 Interface web et mobile
+
+    Site 100% responsive (accessible sur téléphone et ordinateur).
+
+    Mode Web App Progressive (PWA) pour qu’il fonctionne comme une appli mobile sans téléchargement.
+
+2. Fonctionnalités à venir (Phase 2 - évolution de l’app)
+
+🚀 Une fois que le MVP fonctionne et attire du monde, on pourra ajouter :
+✅ Vérification des comptes pour renforcer la sécurité.
+✅ Partenariats avec entreprises pour proposer du travail aux personnes régularisées.
+✅ Système de crowdfunding pour soutenir les utilisateurs en difficulté.
+3. Plan d’action immédiat
+
+📌 Étape 1 (1 semaine) : Rédiger un document détaillé du projet pour clarifier la vision.
+📌 Étape 2 (2 semaines) : Maquetter l’interface sur Figma pour voir à quoi ressemblera l’application.
+📌 Étape 3 (1 mois) : Développer la première version web avec un développeur full-stack ou en No-Code (Bubble, Webflow).

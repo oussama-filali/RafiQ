@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RafiQ - Plateforme d'entraide</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Ajouter Leaflet pour la carte -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/images/logo.png" alt="RafiQ Logo" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Ton RafiQ</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="#">Région</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="sign-in">Sign in</button>
+            <button class="register">Register</button>
+        </div>
+    </nav>
+
+    <!-- Section Hero -->
+    <section class="hero">
+        <h1>RafiQ</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher un repas, un hébergement..." id="search">
+            <button onclick="searchHelp()">Submit</button>
+        </div>
+        <p class="cta">Vous êtes bénévole ou commerçant ? <a href="/signup">Rejoignez RafiQ pour aider !</a></p>
+    </section>
+
+    <!-- Carte interactive -->
+    <section class="map">
+        <div id="map" style="height: 400px;"></div>
+    </section>
+
+    <!-- Profils des aidants -->
+    <section class="profiles">
+        <h2>Nos RafiQ près de chez vous</h2>
+        <div class="profile-grid" id="profile-grid">
+            <!-- Les profils seront ajoutés dynamiquement via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-logo">
+            <img src="/images/logo.png" alt="RafiQ Logo" />
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="/images/twitter-icon.png" alt="Twitter" /></a>
+            <a href="#"><img src="/images/instagram-icon.png" alt="Instagram" /></a>
+            <a href="#"><img src="/images/youtube-icon.png" alt="YouTube" /></a>
+            <a href="#"><img src="/images/linkedin-icon.png" alt="LinkedIn" /></a>
+        </div>
+        <div class="sidebar-section">
+            <h3>Use cases</h3>
+            <ul>
+                <li><a href="#">UI design</a></li>
+                <li><a href="#">UX design</a></li>
+                <li><a href="#">Wireframing</a></li>
+                <li><a href="#">Diagramming</a></li>
+                <li><a href="#">Brainstorming</a></li>
+                <li><a href="#">Online whiteboard</a></li>
+                <li><a href="#">Team collaboration</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Explore</h3>
+            <ul>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Prototyping</a></li>
+                <li><a href="#">Development features</a></li>
+                <li><a href="#">Design systems</a></li>
+                <li><a href="#">Collaboration features</a></li>
+                <li><a href="#">Design process</a></li>
+                <li><a href="#">FigJam</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-section">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Best practices</a></li>
+                <li><a href="#">Colors</a></li>
+                <li><a href="#">Color wheel</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Resource library</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

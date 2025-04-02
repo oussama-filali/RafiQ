@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - RafiQ</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/images/logo.png" alt="RafiQ Logo" />
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Ton RafiQ</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="#">Région</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="sign-in">Sign in</button>
+            <button class="register">Register</button>
+        </div>
+    </nav>
+
+    <!-- Formulaire d'inscription -->
+    <section class="signup">
+        <h1>Rejoignez RafiQ pour faire la différence</h1>
+        <p>Inscrivez-vous en tant que bénévole ou commerçant et aidez ceux qui en ont besoin.</p>
+        <form>
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="type">Type de compte</label>
+            <select id="type" name="type" required>
+                <option value="benevole">Bénévole</option>
+                <option value="commercant">Commerçant</option>
+            </select>
+
+            <label for="services">Compétences ou services proposés</label>
+            <input type="text" id="services" name="services" placeholder="Ex: Repas, Hébergement, Aide administrative">
+
+            <label for="location">Localisation</label>
+            <input type="text" id="location" name="location" placeholder="Ex: Paris, France">
+
+            <button type="submit">S’inscrire</button>
+        </form>
+        <p>Vos informations sont sécurisées et ne seront partagées qu’avec les personnes que vous aidez.</p>
+    </section>
+</body>
+</html>
